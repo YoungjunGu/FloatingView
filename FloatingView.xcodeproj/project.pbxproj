@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84ED40BB1B871C6D561369A1 /* Pods_FloatingView_FloatingViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9FD0837050FF6041B3AEF49 /* Pods_FloatingView_FloatingViewUITests.framework */; };
+		BEE69B11E67CBD1FE5061352 /* Pods_FloatingViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADDF4189619B777F200E8EA4 /* Pods_FloatingViewTests.framework */; };
+		EA77243740F259E2F749AB2A /* Pods_FloatingView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BEB1B10844C804EC516A5C7 /* Pods_FloatingView.framework */; };
 		EF97A9F6244EA65A008B78EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF97A9F5244EA65A008B78EF /* AppDelegate.swift */; };
 		EF97A9F8244EA65A008B78EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF97A9F7244EA65A008B78EF /* SceneDelegate.swift */; };
 		EF97A9FA244EA65A008B78EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF97A9F9244EA65A008B78EF /* ViewController.swift */; };
@@ -15,6 +18,10 @@
 		EF97AA02244EA65C008B78EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF97AA00244EA65C008B78EF /* LaunchScreen.storyboard */; };
 		EF97AA0D244EA65C008B78EF /* FloatingViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF97AA0C244EA65C008B78EF /* FloatingViewTests.swift */; };
 		EF97AA18244EA65C008B78EF /* FloatingViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF97AA17244EA65C008B78EF /* FloatingViewUITests.swift */; };
+		EF97AA42244FE375008B78EF /* BottmSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF97AA41244FE375008B78EF /* BottmSearchView.swift */; };
+		EF97AA47244FF7A7008B78EF /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF97AA45244FF7A7008B78EF /* SearchTableViewCell.swift */; };
+		EF97AA48244FF7A7008B78EF /* SearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF97AA46244FF7A7008B78EF /* SearchTableViewCell.xib */; };
+		EF97AA4C245084C5008B78EF /* NMapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF97AA4B245084C5008B78EF /* NMapsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BEB1B10844C804EC516A5C7 /* Pods_FloatingView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FloatingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49974FD66686147D15DF8362 /* Pods-FloatingView-FloatingViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FloatingView-FloatingViewUITests.debug.xcconfig"; path = "Target Support Files/Pods-FloatingView-FloatingViewUITests/Pods-FloatingView-FloatingViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5580844900948087703F86E1 /* Pods-FloatingView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FloatingView.release.xcconfig"; path = "Target Support Files/Pods-FloatingView/Pods-FloatingView.release.xcconfig"; sourceTree = "<group>"; };
+		8215BA61CF70D4ED397D300E /* Pods-FloatingViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FloatingViewTests.debug.xcconfig"; path = "Target Support Files/Pods-FloatingViewTests/Pods-FloatingViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9FD0837050FF6041B3AEF49 /* Pods_FloatingView_FloatingViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FloatingView_FloatingViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADDF4189619B777F200E8EA4 /* Pods_FloatingViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FloatingViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3DCC81A5615B6821A4695B4 /* Pods-FloatingView-FloatingViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FloatingView-FloatingViewUITests.release.xcconfig"; path = "Target Support Files/Pods-FloatingView-FloatingViewUITests/Pods-FloatingView-FloatingViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D405F6DCDBEBC566C1E48590 /* Pods-FloatingViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FloatingViewTests.release.xcconfig"; path = "Target Support Files/Pods-FloatingViewTests/Pods-FloatingViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		D56A257688AD0BED1D0FBE4E /* Pods-FloatingView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FloatingView.debug.xcconfig"; path = "Target Support Files/Pods-FloatingView/Pods-FloatingView.debug.xcconfig"; sourceTree = "<group>"; };
 		EF97A9F2244EA65A008B78EF /* FloatingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloatingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF97A9F5244EA65A008B78EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF97A9F7244EA65A008B78EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +65,10 @@
 		EF97AA13244EA65C008B78EF /* FloatingViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloatingViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF97AA17244EA65C008B78EF /* FloatingViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingViewUITests.swift; sourceTree = "<group>"; };
 		EF97AA19244EA65C008B78EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF97AA41244FE375008B78EF /* BottmSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottmSearchView.swift; sourceTree = "<group>"; };
+		EF97AA45244FF7A7008B78EF /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		EF97AA46244FF7A7008B78EF /* SearchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchTableViewCell.xib; sourceTree = "<group>"; };
+		EF97AA4B245084C5008B78EF /* NMapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMapsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA77243740F259E2F749AB2A /* Pods_FloatingView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEE69B11E67CBD1FE5061352 /* Pods_FloatingViewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +92,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84ED40BB1B871C6D561369A1 /* Pods_FloatingView_FloatingViewUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		596C7410554FC7F54E130DAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D56A257688AD0BED1D0FBE4E /* Pods-FloatingView.debug.xcconfig */,
+				5580844900948087703F86E1 /* Pods-FloatingView.release.xcconfig */,
+				49974FD66686147D15DF8362 /* Pods-FloatingView-FloatingViewUITests.debug.xcconfig */,
+				D3DCC81A5615B6821A4695B4 /* Pods-FloatingView-FloatingViewUITests.release.xcconfig */,
+				8215BA61CF70D4ED397D300E /* Pods-FloatingViewTests.debug.xcconfig */,
+				D405F6DCDBEBC566C1E48590 /* Pods-FloatingViewTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B5056379F541A744821859B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB1B10844C804EC516A5C7 /* Pods_FloatingView.framework */,
+				A9FD0837050FF6041B3AEF49 /* Pods_FloatingView_FloatingViewUITests.framework */,
+				ADDF4189619B777F200E8EA4 /* Pods_FloatingViewTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EF97A9E9244EA65A008B78EF = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +129,8 @@
 				EF97AA0B244EA65C008B78EF /* FloatingViewTests */,
 				EF97AA16244EA65C008B78EF /* FloatingViewUITests */,
 				EF97A9F3244EA65A008B78EF /* Products */,
+				596C7410554FC7F54E130DAA /* Pods */,
+				B5056379F541A744821859B1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +147,9 @@
 		EF97A9F4244EA65A008B78EF /* FloatingView */ = {
 			isa = PBXGroup;
 			children = (
+				EF97AA49244FF7B4008B78EF /* Source */,
 				EF97A9F5244EA65A008B78EF /* AppDelegate.swift */,
 				EF97A9F7244EA65A008B78EF /* SceneDelegate.swift */,
-				EF97A9F9244EA65A008B78EF /* ViewController.swift */,
 				EF97A9FB244EA65A008B78EF /* Main.storyboard */,
 				EF97A9FE244EA65C008B78EF /* Assets.xcassets */,
 				EF97AA00244EA65C008B78EF /* LaunchScreen.storyboard */,
@@ -128,6 +176,26 @@
 			path = FloatingViewUITests;
 			sourceTree = "<group>";
 		};
+		EF97AA49244FF7B4008B78EF /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				EF97AA4A244FF7BE008B78EF /* View */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		EF97AA4A244FF7BE008B78EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF97AA41244FE375008B78EF /* BottmSearchView.swift */,
+				EF97AA45244FF7A7008B78EF /* SearchTableViewCell.swift */,
+				EF97AA46244FF7A7008B78EF /* SearchTableViewCell.xib */,
+				EF97A9F9244EA65A008B78EF /* ViewController.swift */,
+				EF97AA4B245084C5008B78EF /* NMapsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +203,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF97AA1C244EA65C008B78EF /* Build configuration list for PBXNativeTarget "FloatingView" */;
 			buildPhases = (
+				9963826EE05ECADF25A01337 /* [CP] Check Pods Manifest.lock */,
 				EF97A9EE244EA65A008B78EF /* Sources */,
 				EF97A9EF244EA65A008B78EF /* Frameworks */,
 				EF97A9F0244EA65A008B78EF /* Resources */,
+				43CB00CA503E48C566977194 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF97AA1F244EA65C008B78EF /* Build configuration list for PBXNativeTarget "FloatingViewTests" */;
 			buildPhases = (
+				A66506272C1AE01635536E37 /* [CP] Check Pods Manifest.lock */,
 				EF97AA04244EA65C008B78EF /* Sources */,
 				EF97AA05244EA65C008B78EF /* Frameworks */,
 				EF97AA06244EA65C008B78EF /* Resources */,
@@ -170,9 +241,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF97AA22244EA65C008B78EF /* Build configuration list for PBXNativeTarget "FloatingViewUITests" */;
 			buildPhases = (
+				261CBCEE98D2E130531A5092 /* [CP] Check Pods Manifest.lock */,
 				EF97AA0F244EA65C008B78EF /* Sources */,
 				EF97AA10244EA65C008B78EF /* Frameworks */,
 				EF97AA11244EA65C008B78EF /* Resources */,
+				DB747729BCAB5FDE43E00B45 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF97AA02244EA65C008B78EF /* LaunchScreen.storyboard in Resources */,
+				EF97AA48244FF7A7008B78EF /* SearchTableViewCell.xib in Resources */,
 				EF97A9FF244EA65C008B78EF /* Assets.xcassets in Resources */,
 				EF97A9FD244EA65A008B78EF /* Main.storyboard in Resources */,
 			);
@@ -254,14 +328,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		261CBCEE98D2E130531A5092 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FloatingView-FloatingViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43CB00CA503E48C566977194 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FloatingView/Pods-FloatingView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FloatingView/Pods-FloatingView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FloatingView/Pods-FloatingView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9963826EE05ECADF25A01337 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FloatingView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A66506272C1AE01635536E37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FloatingViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB747729BCAB5FDE43E00B45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FloatingView-FloatingViewUITests/Pods-FloatingView-FloatingViewUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FloatingView-FloatingViewUITests/Pods-FloatingView-FloatingViewUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FloatingView-FloatingViewUITests/Pods-FloatingView-FloatingViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EF97A9EE244EA65A008B78EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF97AA4C245084C5008B78EF /* NMapsViewController.swift in Sources */,
 				EF97A9FA244EA65A008B78EF /* ViewController.swift in Sources */,
 				EF97A9F6244EA65A008B78EF /* AppDelegate.swift in Sources */,
 				EF97A9F8244EA65A008B78EF /* SceneDelegate.swift in Sources */,
+				EF97AA42244FE375008B78EF /* BottmSearchView.swift in Sources */,
+				EF97AA47244FF7A7008B78EF /* SearchTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +612,7 @@
 		};
 		EF97AA1D244EA65C008B78EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D56A257688AD0BED1D0FBE4E /* Pods-FloatingView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +631,7 @@
 		};
 		EF97AA1E244EA65C008B78EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5580844900948087703F86E1 /* Pods-FloatingView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +650,7 @@
 		};
 		EF97AA20244EA65C008B78EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8215BA61CF70D4ED397D300E /* Pods-FloatingViewTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +673,7 @@
 		};
 		EF97AA21244EA65C008B78EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D405F6DCDBEBC566C1E48590 /* Pods-FloatingViewTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +696,7 @@
 		};
 		EF97AA23244EA65C008B78EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49974FD66686147D15DF8362 /* Pods-FloatingView-FloatingViewUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +717,7 @@
 		};
 		EF97AA24244EA65C008B78EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3DCC81A5615B6821A4695B4 /* Pods-FloatingView-FloatingViewUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
